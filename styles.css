@@ -13,7 +13,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0 300px; */
 }
 
 
@@ -56,10 +55,10 @@ main > div > h2 {
     padding-left: 10px; 
 }
 
-div button{
+#btn{
     height: 38px;
     width: 10%;
-    background-color: #c93434;
+    background-color: #39c934;
     border-radius: 5px;
     display: flex;
     float: right;
@@ -67,6 +66,10 @@ div button{
     justify-content: center;
     border: none;
     color: #FFFFFF; 
+}
+
+#btn:hover{
+    background-color: #c93434
 }
 
 hr{
