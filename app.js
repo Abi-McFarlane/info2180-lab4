@@ -1,8 +1,6 @@
 window.onload = function(){
     let searchBtn = document.querySelector("#btn");
     let result = document.querySelector("#result");
-    // let input = document.querySelector("input");
-    // let query = input.value ? input.value : "";
 
     searchBtn.addEventListener("click", (event)=>{
         let input = document.querySelector("#NameOrAlies");
